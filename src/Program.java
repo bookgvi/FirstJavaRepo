@@ -5,7 +5,7 @@ public class Program {
         int[] arr = new int[]{1, 2, 3, 4};
         try {
             arr[5] = 55;
-            System.out.println("Program was terminated normally");
+            System.out.println("Program has terminated normally");
         } catch (Exception err) {
             err.printStackTrace();
         }
